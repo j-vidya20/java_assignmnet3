@@ -1,0 +1,4 @@
+4)	
+Suppose you wanted to write code that reads from a file one word at a time. The code needs to peek ahead to find where the words are separated by whitespace. What input stream could you use to accomplish this and how ?
+Answer:
+You can use the java.util.StringTokenizer (in the API reference documentation) or java.io.StreamTokenizer (in the API reference documentation)to parse your input into words.
